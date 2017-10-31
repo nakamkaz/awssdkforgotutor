@@ -30,18 +30,44 @@ aws_secret_access_key = ACCESSKEY
 
    Performing Basic Amazon S3 Bucket Operations 
 
--  s3lsitem.go
+-  s3listitem.go
 
-    List Bucket / List Bucket Items 
+   List Bucket / List Bucket Items 
   
 - s3upfile.go 
    
      Upload a File to a Bucket
-     
+
+https://s3.amazonaws.com/nkvd/s3upfile.go
+
+https://s3.amazonaws.com/nkvd/s3upfile.exe
+
+
+
 - s3makebkt.go
 
      create a bucket
 
+https://s3.amazonaws.com/nkvd/s3makebkt.go
+
+https://s3.amazonaws.com/nkvd/s3makebkt.exe
+
 - s3lsbkt.go
 
    list Buckets
+
+https://s3.amazonaws.com/nkvd/s3lsbkt.go
+
+https://s3.amazonaws.com/nkvd/s3lsbkt.exe
+
+
+https://s3.amazonaws.com/nkvd/
+
+
+
+
+https://s3.amazonaws.com/nkvd/s3listitem.go
+
+https://s3.amazonaws.com/nkvd/s3listitem.exe
+
+
