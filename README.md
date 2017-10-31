@@ -9,29 +9,39 @@ https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/welcome.html
 
 - Determine Region for AWS services
 
-  $ export AWS_REGION=us-east-1
+```
+$ export AWS_REGION=us-east-1
+```
 
 - file for Credentials 
+
+```
    $ mkdir $HOME/.aws
-   $ vi $HOME/.aws/credential
-  
+   $ vi $HOME/.aws/credentials
+```
+
 ```
 [default]
 aws_access_key_id = ACCESSKEYIDFORTHESERVICE
 aws_secret_access_key = ACCESSKEY
 ```
 
-!Example 
+-- Examples
 
-!! Performing Basic Amazon S3 Bucket Operations 
+   Performing Basic Amazon S3 Bucket Operations 
 
--  lists3.go
+-  s3lsitem.go
 
     List Bucket / List Bucket Items 
   
-  - s3upfile.go 
+- s3upfile.go 
    
      Upload a File to a Bucket
      
-     
-     
+- s3makebkt.go
+
+     create a bucket
+
+- s3lsbkt.go
+
+   list Buckets
